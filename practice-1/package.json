@@ -1,0 +1,20 @@
+{
+  "name": "solana-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "npx esrun generate-keypair.ts",
+    "load": "npx esrun load-keypair.ts",
+    "check": "npx esrun check-balance.ts",
+    "find-private-key": "npx esrun find-private-key/find-private-key.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana-developers/helpers": "^2.4.0",
+    "@solana/web3.js": "^1.95.2",
+    "esrun": "^3.2.26"
+  }
+}
