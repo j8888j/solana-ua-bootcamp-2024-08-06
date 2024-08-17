@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate-keypair": "npx esrun generate-keypair.ts",
-    "load-keypair": "npx esrun load-keypair.ts",
-    "find-private-key": "npx esrun find-private-key/find-private-key.ts"
+    "check-balance": "npx esrun check-balance.ts"
   },
   "keywords": [],
   "author": "",

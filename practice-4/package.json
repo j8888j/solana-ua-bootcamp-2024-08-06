@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate-keypair": "npx esrun generate-keypair.ts",
-    "load-keypair": "npx esrun load-keypair.ts",
-    "find-private-key": "npx esrun find-private-key/find-private-key.ts"
+    "create-token-mint": "npx esrun create-token-mint.ts",
+    "create-token-account": "npx esrun create-token-account.ts",
+    "mint-tokens": "npx esrun mint-tokens.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
     "@solana-developers/helpers": "^2.4.0",
+    "@solana/spl-token": "^0.4.8",
     "@solana/web3.js": "^1.95.2",
     "esrun": "^3.2.26"
   }
